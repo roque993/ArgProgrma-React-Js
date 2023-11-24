@@ -1,11 +1,14 @@
 
 import "./style/Main.css"
 
+
+
 function Main() {
 
 
 
     return (
+        
         <div className="container-principal">
             <div className="container-form">
                 <h1 className="title">Aprendiendo a Programar</h1>
@@ -56,7 +59,11 @@ function Main() {
                 <img className="img-principal" src="././img/img1.png" alt="img de la pàgina" />
             </div>
         </div>
-    )
+        
+    ) 
+   
 }
+
+
 
 export default Main;

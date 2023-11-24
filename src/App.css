@@ -1,9 +1,5 @@
-
-ul{
-    display:  flex;
-    list-style: none;
-    justify-content: end;
-  }
-  li{
-    padding: 15px;
-  }
+body{
+    margin: 0;
+    padding: 0;
+    
+}
