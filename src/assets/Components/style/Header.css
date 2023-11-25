@@ -1,2 +1,58 @@
 
 
+
+header{
+  
+    background-color: #222326;
+      bottom:0;
+      position:static;
+      padding: 5px;
+      width:auto ;
+      box-shadow: 2px 2px 5px rgb(117, 116, 116);
+     
+    }
+
+    ul{
+      margin-bottom: 2rem;
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      
+     
+    }
+    
+    li {
+      font-size: 18px;
+      padding: 15px;
+    }
+
+
+    
+    a{
+      text-decoration: none;
+      color: rgb(211, 207, 207);
+    }
+  
+    .nav-enlace{
+      color: rgb(204, 192, 192);
+      font-weight: bold;
+      background-color: trsoansparent;
+      border: 2px solid rgb(211, 207, 207);
+      padding: 1em 1em;
+      margin: 10px;
+      border-radius: 20px;
+    }
+    .nav-enlace:hover{
+      border: 3px solid #138D75;
+    }
+    
+      
+    
+    .icono-header{
+      padding-top: 2rem;
+      width: 100px;
+      align-self:flex-start;
+     
+    }
+  
+    

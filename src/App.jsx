@@ -2,8 +2,9 @@
 import "./App.css"
 import Footer from "./assets/Components/Footer"
 import Header from "./assets/Components/Header"
-import Main from "./assets/Components/main"
+import Main from "./assets/Components/Main"
 import Cards from "./assets/Components/Card"
+
 
 function App  () {
   
@@ -14,6 +15,8 @@ function App  () {
      <Main />
      <Cards />
      <Footer />
+     
+    
 
      
     </>

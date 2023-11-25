@@ -4,7 +4,7 @@ import "./style/Cards.css"
 function Cards (){
     return (
 
-       <section className="Cards">
+       <section className="Cards" id="cursos">
         <div className="Cards-container">
             <img src="././img/imgjs.png" alt="" />
             <ul className="list">

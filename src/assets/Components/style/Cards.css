@@ -6,9 +6,9 @@
     display: flex;
     justify-content: center;
      gap: 3rem; 
-     flex-wrap: wrap;
+     cursor: pointer;
+    
 }
-
 .Cards-container{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -17,7 +17,12 @@
     color: #fff;
     padding: 2rem;
     height: 300px;
+    transition: transform 0.3s ease;
     
+}
+
+.Cards-container:hover {
+    transform: scale(1.1); 
 }
 
 img{
@@ -25,16 +30,17 @@ img{
     margin-left: 5rem
 }
 .list{
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+     font-size: 18px;
   list-style: none;
-  line-height: 30px;
+  line-height: 10px;
 }
 
 .btn-cards{
     width: 130px;
     height: 40px;
     margin-left: 5rem;
-    margin-top: 1rem;
     border-radius: 5px;
     background-color: #feac32;
    font-size: 18px;
